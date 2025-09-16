@@ -12,10 +12,9 @@ A flutter plugin that enables flutter apps to receive sharing photos from other 
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Kasem' => 'kasem.jaffer@gmail.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  s.source_files = 'receive_sharing_intent/Sources/receive_sharing_intent/**/*.{h,m}'
+  s.public_header_files = 'receive_sharing_intent/Sources/receive_sharing_intent/include/**/*.h'
   s.dependency 'Flutter'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '15.0'
 end
-
